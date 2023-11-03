@@ -1,19 +1,20 @@
 import * as React from "react";
 import { graphql } from "gatsby";
-import IndexTemplateLayout from "../components/index.template";
+import PageTemplateLayout from "../components/page.template";
+// import markdown from "../markdown/viagens.md"
 
-const IndexPage = ({ data }) => {
+const Viagens = ({ data }) => {
   const markdownContent = data.allMarkdownRemark.nodes[0].html;
   return (
-    <IndexTemplateLayout>
+    <PageTemplateLayout>
       <div dangerouslySetInnerHTML={{ __html: markdownContent }} />
-    </IndexTemplateLayout>
+    </PageTemplateLayout>
   );
 };
 
 export const query = graphql`
 query MyQuery {
-  allMarkdownRemark(filter: {frontmatter: {page: {eq: "index.js"}}}) {
+  allMarkdownRemark(filter: {frontmatter: {page: {eq: "viagens.js"}}}) {
     nodes {
       frontmatter {
         layout
@@ -27,5 +28,5 @@ query MyQuery {
 }
 `;
 
-export default IndexPage;
-export const Head = () => <title>Home</title>;
+export default Viagens;
+export const Head = () => <title>Viagens</title>;

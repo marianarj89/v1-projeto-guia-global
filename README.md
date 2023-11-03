@@ -1,11 +1,15 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <!-- <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="guiaglobal" src="/projeto.jpg"/>
   </a>
-</p>
+</p> -->
 <h1 align="center">
-  Gatsby Minimal Starter
+  Guia Global | V1 [ JAMstack + GatsbyJS ]
 </h1>
+<p> Mariana Sá Ribas </p>
+
+ ![Presentation](src/screenshots/projeto.jpg)
+
 
 ## 🚀 Quick start
 
