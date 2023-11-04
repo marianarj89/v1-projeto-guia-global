@@ -1,6 +1,8 @@
 import * as React from "react";
 import { graphql } from "gatsby";
 import PageTemplateLayout from "../components/page.template";
+import RandomUserGenerator from "../components/RandomUser";
+
 // import markdown from "../markdown/sobre-nos.md"
 
 const Sobre = ({ data }) => {
@@ -8,6 +10,13 @@ const Sobre = ({ data }) => {
   return (
     <PageTemplateLayout>
       <div dangerouslySetInnerHTML={{ __html: markdownContent }} />
+      
+      <div className="containerTeam">
+      <RandomUserGenerator/>
+      <RandomUserGenerator/>
+      <RandomUserGenerator/>
+      <RandomUserGenerator/>
+      </div>
     </PageTemplateLayout>
   );
 };
