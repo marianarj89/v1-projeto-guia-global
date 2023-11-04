@@ -12,6 +12,7 @@ export default function Header() {
         <Link to="/sobre-nos">Sobre nós</Link>
         <Link to="/viagens">Viagens</Link>
         <Link to="/mapas">Mapas</Link>
+        <Link to="/clima">Clima</Link>
         <Link to="/fale-conosco">Fale Conosco</Link>
         <Link to="/blog">Blog</Link>
       </nav>

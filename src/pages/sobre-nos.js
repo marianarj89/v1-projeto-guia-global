@@ -38,4 +38,4 @@ query MyQuery {
 `;
 
 export default Sobre;
-export const Head = () => <title>Sobre Nós</title>;
+export const Head = () => <title>Sobre Nós | Guia Global - JAMstack Gatsby </title>;

@@ -6,7 +6,7 @@
 <h1 align="center">
   Guia Global | V1 [ JAMstack + GatsbyJS ]
 </h1>
-<p> Mariana Sá Ribas | [Versão Live](https://enchanting-meringue-fc1083.netlify.app/) </p>
+<p> Mariana Sá Ribas | Netlify: (https://enchanting-meringue-fc1083.netlify.app/) | Git: https://github.com/marianarj89/v1-projeto-guia-global/ </p>
 
  ![Presentation](src/screenshots/projeto.jpg)
 

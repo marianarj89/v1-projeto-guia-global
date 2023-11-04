@@ -28,4 +28,4 @@ query MyQuery {
 `;
 
 export default IndexPage;
-export const Head = () => <title>Home</title>;
+export const Head = () => <title>Home | Guia Global - JAMstack Gatsby</title>;

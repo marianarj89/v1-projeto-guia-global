@@ -73,3 +73,61 @@
   }
   
   /* Sobre Nós END */
+
+  /* fale-conosco FOR START */
+
+  input[type=text], input[type=email], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #F1FAEE;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    resize: vertical;
+    display: block;
+  }
+  
+  input[type=submit], input[type=reset] {
+    background-color: #1D3557;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .containerForm {
+    width: 900px;
+    border-radius: 5px;
+    background-color: #457B9D;
+    padding: 20px;
+  }
+
+  .containerForm label {
+    display: block;
+    color: #F1FAEE;
+    font-size: 15pt;
+  }
+
+  .erro {
+    color: red;
+    display: block;
+    text-align: right;
+  }
+
+    /* fale-conosco FOR END */
+
+    .btn.btn-dark {
+      margin-top: 20px;
+      background-color: #25d366;
+      color:black;
+      font-weight: bold;
+  }
+  
+  .btn.btn-dark:hover {
+      background-color: #075E54;
+      color:rgb(255, 255, 255);
+      font-weight: bold;
+  }

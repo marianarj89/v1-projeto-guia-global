@@ -1,6 +1,7 @@
 import * as React from "react";
 import { graphql } from "gatsby";
 import PageTemplateLayout from "../components/page.template";
+import Clima from "../components/Clima";
 // import markdown from "../markdown/sobre-nos.md"
 
 const Mapas = ({ data }) => {
@@ -8,6 +9,7 @@ const Mapas = ({ data }) => {
   return (
     <PageTemplateLayout>
       <div dangerouslySetInnerHTML={{ __html: markdownContent }} />
+      <Clima/>
     </PageTemplateLayout>
   );
 };
@@ -29,4 +31,4 @@ query MyQuery {
 `;
 
 export default Mapas;
-export const Head = () => <title>Mapas</title>;
+export const Head = () => <title>Mapas | Guia Global - JAMstack Gatsby </title>;

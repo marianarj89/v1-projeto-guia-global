@@ -1,6 +1,7 @@
 import * as React from "react";
 import { graphql } from "gatsby";
 import PageTemplateLayout from "../components/page.template";
+
 // import markdown from "../markdown/blog.md"
 
 const Blog = ({ data }) => {
@@ -29,4 +30,4 @@ query MyQuery {
 `;
 
 export default Blog;
-export const Head = () => <title>Nosso Blog</title>;
+export const Head = () => <title>Nosso Blog | Guia Global - JAMstack Gatsby</title>;
