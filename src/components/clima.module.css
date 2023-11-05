@@ -1,0 +1,60 @@
+h1 {
+  color: #1D3557;
+  font-size: 3rem;
+  padding-bottom: -10px;
+}
+
+h4 {
+  color: #1D3557;
+  font-size: 2rem;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 10px;
+}
+
+h5 {
+  color: #1D3557;
+  font-size: 1.5rem;
+  justify-content: center;
+  display: flex;
+  font-weight: 700;
+}
+
+h6 {
+  color: #1D3557;
+  font-size: 1.3rem;
+  justify-content: center;
+  display: flex;
+}
+
+p {
+  color: #1D3557;
+  font-size: 1.3rem;
+  justify-content: center;
+  display: flex;
+  padding: 0%;  
+}
+
+.final .bold p {
+  font-weight: bold;
+}
+
+.final {
+  display: flex;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+}
+
+.app input {
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255, 0.8);
+  background: rgba(255,255,255, 0.1);
+  color: #f8f8f8;
+}
+
+::placeholder {
+  color: #1D3557;
+}

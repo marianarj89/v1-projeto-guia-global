@@ -11,7 +11,7 @@
     font-weight: 700;
     font-size: 1.1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: absolute;
+    position: bottom;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -21,6 +21,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: #F1FAEE;
 }
 
 .p a {

@@ -6,7 +6,7 @@ import * as headerStyles from "./header.module.css";
 export default function Header() {
   return (
     <div className={headerStyles.header}>
-      <img className={headerStyles.logo} src={logo} alt="logo Guia Global" />
+      <img className={headerStyles.logo} src={logo} alt="logo Guia Global" Link to="/"/>
       <nav className={headerStyles.topnav}>
         <Link to="/">Home</Link>
         <Link to="/sobre-nos">Sobre nós</Link>

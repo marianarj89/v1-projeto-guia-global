@@ -1,7 +1,6 @@
 import * as React from "react";
 import { graphql } from "gatsby";
 import PageTemplateLayout from "../components/page.template";
-import Clima from "../components/Clima";
 // import markdown from "../markdown/sobre-nos.md"
 
 const Mapas = ({ data }) => {
@@ -9,7 +8,6 @@ const Mapas = ({ data }) => {
   return (
     <PageTemplateLayout>
       <div dangerouslySetInnerHTML={{ __html: markdownContent }} />
-      <Clima/>
     </PageTemplateLayout>
   );
 };

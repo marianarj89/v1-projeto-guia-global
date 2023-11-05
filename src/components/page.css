@@ -27,6 +27,11 @@
     margin-bottom: 20px;
 }
 
+.container h3 {
+  text-align: center;
+}
+
+
 .container hr {
     margin-bottom: 20px;
     border-color: rgb(255, 20, 59);
@@ -131,3 +136,83 @@
       color:rgb(255, 255, 255);
       font-weight: bold;
   }
+
+
+      /* CLIMA APP START */
+
+      .topoClima h1 {
+        color: #1D3557;
+        font-size: 3rem;
+      }
+      
+      .topoClima h4 {
+        color: #1D3557;
+        font-size: 2rem;
+        justify-content: center;
+        display: flex;
+        padding-bottom: 10px;
+      }
+      
+      .topoClima h5 {
+        color: #1D3557;
+        font-size: 1.5rem;
+        justify-content: center;
+        display: flex;
+        font-weight: 700;
+      }
+      
+      .finalClima h6 {
+        color: #1D3557;
+        font-size: 1.3rem;
+        justify-content: center;
+        display: flex;
+      }
+      
+      .finalClima p {
+        color: #1D3557;
+        font-size: 1.3rem;
+        justify-content: center;
+        display: flex;
+        padding: 0%;  
+      }
+      
+      .final .bold p {
+        font-weight: bold;
+      }
+      
+      .final {
+        display: flex;
+        justify-content: space-between;
+        grid-template-columns: 1fr 1fr;
+        overflow: hidden;
+      }
+
+      .search {
+        display: flex;
+        align-items: center;
+        padding-bottom: 50px;
+      }
+      
+      .app input {
+        padding: .7rem 1.5rem;
+        font-size: 1.2rem;
+        border-radius: 25px;
+        border: 2px solid #E63946;
+        background: rgba(255,255,255, 0.1);
+        color: #1D3557;
+      }
+      
+      ::placeholder {
+        color: #1D3557;
+      }
+
+      .btn.btn-success {
+        background-color: #1D3557;
+        border-radius: 25px;
+        margin-left: 10px; 
+        justify-content: center;
+        align-items: center;
+      }
+
+
+      /* CLIMA APP END */
