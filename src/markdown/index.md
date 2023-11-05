@@ -17,6 +17,7 @@ Extraordinary claims require extraordinary evidence Vangelis paroxysm of global 
 
 * [Random User API](https://randomuser.me/)
 * [Openweather API](https://randomuser.me/)
+* [Country Flag API](https://flagsapi.com/)
 * [Spotify API](https://randomuser.me/)
 * [Unplash API](https://randomuser.me/)
   
