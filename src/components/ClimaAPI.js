@@ -11,6 +11,7 @@ const apiKey = "5a49d36a8131fb1cbb48926982621865";
 const url = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&units=metric&appid=${apiKey}&lang=pt_br`;
 
 
+
 const searchCidade = (e) => {
   if (e.key === "Enter" || e.type === "click") {
     axios.get(url)
@@ -24,6 +25,15 @@ const searchCidade = (e) => {
       });
   }
 }
+
+let country = "";
+let flagUrl = "";
+
+if (data && data.sys && data.sys.country) {
+  country = data.sys.country;
+  flagUrl = `https://flagsapi.com/${country}/flat/32.png`;
+}
+
 
 return (
   <div className="app">
@@ -44,7 +54,10 @@ return (
     <div className="containerClima">
 
       <div className="topoClima">
-          <h4>{data.name}</h4>
+
+
+          <h4> </h4> 
+          <h4>{data.name} {country} &nbsp;<img src={flagUrl} />   </h4>
           {data.main ? <h1>{data.main.temp.toFixed()}°C</h1> : null}
           {data.weather ? <h4>{data.weather[0].description}</h4> : null}
           
