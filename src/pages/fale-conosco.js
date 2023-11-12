@@ -20,14 +20,15 @@ const FaleConosco = () => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({"form-name": "form-hook", ...data}),
+      body: encode({"form-name": "form_faleconosco", ...data}),
     })
       .then(() => {
         alert("Mensagem enviada com sucesso!")
         reset();
       })
       .catch((error) => alert(error));
-  }
+  };
+  
 
   return (
     <PageTemplateLayout>
@@ -35,9 +36,8 @@ const FaleConosco = () => {
 <h2>Fale Conosco:</h2>
 
       <div className="containerForm">
-        <form name="form_hook"  method="post" onSubmit={handleSubmit(onSubmit)}
-          data-netlify="true" data-netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="form_hook" />
+      <form name="form_faleconosco" method="post" onSubmit={handleSubmit(onSubmit)} data-netlify="true" data-netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="form_hook" />
           <label>
             Nome:
             <input type="text" name="nome" {...register("nome", { required: true, maxLength: 20 })} />
