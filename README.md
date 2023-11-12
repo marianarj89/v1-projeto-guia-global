@@ -4,9 +4,11 @@
   </a>
 </p> -->
 <h1 align="center">
-  Guia Global | V1 [ JAMstack + GatsbyJS ]
+  Guia Global | Projeto Final [ JAMstack + GatsbyJS ]
 </h1>
-<p> Mariana Sá Ribas | Netlify: (https://enchanting-meringue-fc1083.netlify.app/) | Git: https://github.com/marianarj89/v1-projeto-guia-global/ </p>
+<p> Mariana Sá Ribas </p>
+
+  [Netlify](https://enchanting-meringue-fc1083.netlify.app/) | [Github](https://github.com/marianarj89/v1-projeto-guia-global/)
 
  ![Presentation](src/screenshots/projeto.jpg)
 

@@ -1,11 +1,16 @@
 import * as React from "react";
+// import { useState } from 'react';
 import PageTemplateLayout from "../components/page.template";
 import { useForm } from "react-hook-form";
+// import ModalFaleConosco from "../components/ModalFaleConosco";
+
+
 
 const FaleConosco = () => {
   const { register, handleSubmit, formState: { errors }, reset } = useForm();
 
-  const encode = (data) => {
+
+    const encode = (data) => {
     return Object.keys(data)
       .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
       .join("&");
@@ -65,7 +70,9 @@ const FaleConosco = () => {
           <input type="reset" value="Reset" />
         </form>
       </div>
-      <button type="button" class="btn btn-dark">💬 Estamos online! Se preferir, converse pelo chat!</button>
+
+      {/* <button type="button" class="btn btn-dark">💬 Estamos online! Se preferir, converse pelo chat!</button> */}
+
     </PageTemplateLayout>
   );
 };

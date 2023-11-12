@@ -5,6 +5,8 @@ import "./page.css"
 import bootstrap from "bootstrap/dist/css/bootstrap.min.css";
 
 
+
+
 export default function PageTemplateLayout({ children }) {
   return (
     <main className="index">

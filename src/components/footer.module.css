@@ -8,8 +8,8 @@
     padding: 10px;
     color:#F1FAEE;
     text-align: center;
-    font-weight: 700;
-    font-size: 1.1rem;
+    font-weight: 200;
+    font-size: 1.0rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: bottom;
     bottom: 0;
@@ -26,4 +26,5 @@
 
 .p a {
     color: #F1FAEE;
+    text-decoration: none;
 }
