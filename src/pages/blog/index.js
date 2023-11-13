@@ -1,22 +1,17 @@
 import * as React from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
-import PageTemplateLayout from "../components/page.template";
+import PageTemplateLayout from "../../components/page.template";
 
 const Blog = () => {
   const data = useStaticQuery(graphql`
   query BlogQuery {
-    allMdx(sort: { frontmatter: { date: DESC } }) {
+    allMdx(sort: {frontmatter: {date: DESC}}) {
       nodes {
         frontmatter {
           date(formatString: "MMMM D, YYYY")
           title
           author
           slug
-          hero_image {
-            childImageSharp {
-              gatsbyImageData
-            }
-          }
         }
         id
         excerpt
@@ -34,14 +29,14 @@ const Blog = () => {
           <br />
           <p className="blogTitleP">
             <Link to={`/blog/${node.frontmatter.slug}`}>
-              <p className="blogTitleP"> ➡️ {node.frontmatter.title}</p>
+            <p className="blogTitleP"> ➡️ {node.frontmatter.title}</p>
             </Link>
           </p>
           <br />
-
-          <p> Data de Publicação: {node.frontmatter.date}</p>
-          <p> Autor: {node.frontmatter.author}</p>
-          <p>{node.excerpt}</p>
+          <p>{node.excerpt}</p>        
+          <p className="blogInfo"> Data de Publicação: {node.frontmatter.date}</p>
+          <p className="blogInfo"> Autor: {node.frontmatter.author}</p>
+         
         </article>
       ))}
     </PageTemplateLayout>
@@ -49,6 +44,4 @@ const Blog = () => {
 };
 
 export default Blog;
-export const Head = () => (
-  <title>Nosso Blog | Guia Global - JAMstack Gatsby</title>
-);
+export const Head = () => <title>Nosso Blog | Guia Global - JAMstack Gatsby</title>;

@@ -82,7 +82,7 @@
   /* fale-conosco FOR START */
 
   input[type=text], input[type=email], select, textarea {
-    width: 100%;
+    width: 75vw;
     padding: 10px;
     border: 1px solid #F1FAEE;
     border-radius: 4px;
@@ -104,7 +104,7 @@
   }
 
   .containerForm {
-    width: 900px;
+    width: 80vw;
     border-radius: 5px;
     background-color: #457B9D;
     padding: 20px;
@@ -216,3 +216,26 @@
 
 
       /* CLIMA APP END */
+
+
+      /* BLOG START */
+
+      .blogTitleP {
+        color: #E63946;
+        text-decoration: none;
+        font-size: 1.5rem;
+      }
+
+      .blogTitleP a {
+        color: #E63946;
+        text-decoration: none;
+        font-size: 1.5rem;
+
+      }
+
+      .blogInfo {
+        font-weight: 600;
+        margin-bottom: 2px;
+      }
+
+      /* BLOG END */

@@ -28,7 +28,7 @@ export default function ClimaAPI() {
 
   if (data && data.sys && data.sys.country) {
     country = data.sys.country;
-    flagUrl = `https://flagsapi.com/${country}/flat/48.png`;
+    flagUrl = `https://flagsapi.com/${country}/shiny/48.png`;
   }
 
   return (
