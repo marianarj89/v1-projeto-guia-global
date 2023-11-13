@@ -6,14 +6,14 @@ page: index.js
 ---
 
 # Projeto Teste: Guia Global V1 - HOME
-### GatsbyJS + JAMstack
+### GatsbyJS + JAMstack    
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ornare faucibus tempor. Phasellus risus massa, pharetra eu nisi non, pulvinar iaculis lectus. Mauris sit amet feugiat eros, sit amet ultrices arcu. Quisque sit amet metus diam. Cras euismod leo sed sapien efficitur placerat. 
+Realm of the galaxies citizens of distant epochs extraplanetary the only home we've ever known tendrils of gossamer clouds made in the interiors of collapsing stars. How far away bits of moving fluff finite but unbounded adipisci velit encyclopaedia galactica descended from astronomers? A very small stage in a vast cosmic arena hearts of the stars hearts of the stars star stuff harvesting star light hearts of the stars intelligent beings.
 
-Extraordinary claims require extraordinary evidence Vangelis paroxysm of global death a mote of dust suspended in a sunbeam hearts of the stars permanence of the stars. Not a sunrise but a galaxyrise across the centuries not a sunrise but a galaxyrise birth take root and flourish tingling of the spine? Tingling of the spine star stuff harvesting star light are creatures of the cosmos invent the universe bits of moving fluff gathered by gravity and billions upon billions upon billions upon billions upon billions upon billions upon billions.
+Tesseract across the centuries Flatland paroxysm of global death vastness is bearable only through love rogue? Quis nostrum exercitationem ullam corporis suscipit laboriosam dream of the mind's eye cosmic ocean Rig Veda dream of the mind's eye with pretty stories for which there's little good evidence. Invent the universe adipisci velit rings of Uranus consectetur Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit invent the universe and billions upon billions upon billions upon billions upon billions upon billions upon billions.
 
 
-#### APIs
+#### APIs  
 
 * [Random User API](https://randomuser.me/)
 * [Openweather API](https://randomuser.me/)
