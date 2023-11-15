@@ -42,6 +42,8 @@ export default function ClimaAPI() {
           type="text"
         />
 
+        <br />
+
         <div className="buttonClima">
           <button onClick={searchCidade} type="button" class="btn btn-success">
             Pesquisar

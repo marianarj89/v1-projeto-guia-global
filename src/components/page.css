@@ -9,6 +9,12 @@
     min-height: 100vh;
 }
 
+@media (max-width: 768px) {
+  body {
+    padding-top: 0; 
+  }
+}
+
 .index {
     display: grid;
     grid: "header" auto "index" 1fr "footer" auto / 1fr;
@@ -20,6 +26,13 @@
     grid-area: index;
     padding: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px; 
+  }
 }
 
 .container h1 {
@@ -29,8 +42,8 @@
 
 .container h3 {
   text-align: center;
+  font-size: 1.2rem;
 }
-
 
 .container hr {
     margin-bottom: 20px;
@@ -63,11 +76,19 @@
     grid-template-columns: 1fr 1fr;
     max-width: 80vw;
   }
+
+  @media (max-width: 768px) {
+    .containerTeam {
+      flex-direction: column;
+      align-items: center; 
+    }
+  }  
   
   .containerTeam p {
     font-size: 1.1rem;
     padding-top: 3px;
     margin-bottom: 1px;
+
   }
   
   .containerTeam img {
@@ -75,6 +96,9 @@
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
   }
   
   /* Sobre Nós END */
@@ -82,13 +106,13 @@
   /* fale-conosco FOR START */
 
   input[type=text], input[type=email], select, textarea {
-    width: 75vw;
+    width: 65vw;
     padding: 10px;
     border: 1px solid #F1FAEE;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     resize: vertical;
     display: block;
   }
@@ -100,21 +124,20 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin: 5px;
+    margin: 10px 10px 0px 0px;
   }
-
   .containerForm {
-    width: 80vw;
     border-radius: 5px;
     background-color: #457B9D;
     padding: 20px;
+    width: 80vw;
   }
 
   .containerForm label {
     display: block;
     color: #F1FAEE;
-    font-size: 15pt;
-  }
+    font-size: 1.2rem;
+    }
 
   .erro {
     color: red;
@@ -194,12 +217,13 @@
       }
       
       .app input {
-        padding: .7rem 1.5rem;
+        padding: .2rem 1.5rem;
         font-size: 1.2rem;
         border-radius: 25px;
         border: 2px solid #E63946;
         background: rgba(255,255,255, 0.1);
         color: #1D3557;
+        max-width: 60vw
       }
       
       ::placeholder {
