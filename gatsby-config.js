@@ -4,6 +4,8 @@
 module.exports = {
   siteMetadata: {
     title: `Guia Global Projeto JAMstack`,
+    siteUrl: `https://enchanting-meringue-fc1083.netlify.app/`,
+    description: `© 2023 Guia Global | Projeto de JAMstack & GatsbyJS | Infnet Pós Graduacão Fullstack | Aluna: Mariana Sá Ribas`,
   },
   plugins: [
     {

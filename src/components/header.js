@@ -18,10 +18,7 @@ export default function Header() {
       <nav
         className={`navbar navbar-expand-lg navbar-light  ${headerStyles.customNavbar}`}
       >
-        <a className="navbar-brand" href="#">
-          {" "}
-        </a>
-        <button
+        <button aria-label="Menu principal"
           className={`navbar-toggler ${headerStyles.customTogglerButton}`}
           type="button"
           onClick={handleToggle}
@@ -51,16 +48,16 @@ export default function Header() {
                 ☁️ Clima
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/viagens">
                 🧳 Viagens
               </Link>
-            </li>
-            <li className="nav-item">
+            </li> */}
+            {/* <li className="nav-item">
               <Link className="nav-link" to="/mapas">
                 🗺️ Mapas
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link className="nav-link" to="/blog">
                 📒 Blog

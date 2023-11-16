@@ -5,7 +5,7 @@ slug: /
 page: index.js
 ---
 
-# Projeto Teste: Guia Global V1 - HOME
+# Projeto Teste: Guia Global - HOME
 ### GatsbyJS + JAMstack    
 
 Realm of the galaxies citizens of distant epochs extraplanetary the only home we've ever known tendrils of gossamer clouds made in the interiors of collapsing stars. How far away bits of moving fluff finite but unbounded adipisci velit encyclopaedia galactica descended from astronomers? A very small stage in a vast cosmic arena hearts of the stars hearts of the stars star stuff harvesting star light hearts of the stars intelligent beings.
@@ -18,7 +18,5 @@ Tesseract across the centuries Flatland paroxysm of global death vastness is bea
 * [Random User API](https://randomuser.me/)
 * [Openweather API](https://randomuser.me/)
 * [Country Flag API](https://flagsapi.com/)
-* [Spotify API](https://randomuser.me/)
-* [Unplash API](https://randomuser.me/)
-  
+
 

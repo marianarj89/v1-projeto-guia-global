@@ -1,16 +1,13 @@
 import * as React from "react";
 import { graphql } from "gatsby";
 import IndexTemplateLayout from "../components/index.template";
-
-
+import Carousel from 'react-bootstrap/Carousel';
 
 const IndexPage = ({ data }) => {
   const markdownContent = data.allMarkdownRemark.nodes[0].html;
   return (
     <IndexTemplateLayout>
       <div dangerouslySetInnerHTML={{ __html: markdownContent }} />
-
-
     </IndexTemplateLayout>
   );
 };
